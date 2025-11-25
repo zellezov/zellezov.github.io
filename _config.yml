@@ -1,0 +1,27 @@
+title: Engineer's Log
+description: Notes from a QA engineer on software quality, DevOps practices, books worth reading, and lessons learned. Still learning.
+author: Andrejs Žeļezovs
+email: your.email@example.com
+
+theme: minima
+
+# Minima settings
+minima:
+  skin: auto
+  date_format: "%b %-d, %Y"
+  social_links:
+    - { platform: github, user_url: "https://github.com/zellezov" }
+    - { platform: linkedin, user_url: "https://linkedin.com/in/zelezovs" }
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
